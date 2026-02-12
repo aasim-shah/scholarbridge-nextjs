@@ -1,15 +1,6 @@
 {
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/About": "pages/About.html",
-  "/Contact": "pages/Contact.html",
-  "/Admin": "pages/Admin.html",
-  "/NotFound": "pages/NotFound.html",
-  "/Index": "pages/Index.html",
-  "/Privacy": "pages/Privacy.html",
-  "/Search": "pages/Search.html",
-  "/ScholarshipDetails": "pages/ScholarshipDetails.html",
-  "/Terms": "pages/Terms.html",
+  "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
 }

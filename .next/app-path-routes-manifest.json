@@ -1,10 +1,10 @@
 {
   "/_not-found/page": "/_not-found",
-  "/about/page": "/about",
-  "/contact/page": "/contact",
-  "/page": "/",
   "/search/page": "/search",
-  "/privacy/page": "/privacy",
   "/scholarship/[id]/page": "/scholarship/[id]",
-  "/terms/page": "/terms"
+  "/terms/page": "/terms",
+  "/page": "/",
+  "/about/page": "/about",
+  "/privacy/page": "/privacy",
+  "/contact/page": "/contact"
 }

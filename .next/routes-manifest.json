@@ -48,40 +48,10 @@
       "namedRegex": "^/about(?:/)?$"
     },
     {
-      "page": "/About",
-      "regex": "^/About(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/About(?:/)?$"
-    },
-    {
-      "page": "/Admin",
-      "regex": "^/Admin(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Admin(?:/)?$"
-    },
-    {
       "page": "/contact",
       "regex": "^/contact(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/contact(?:/)?$"
-    },
-    {
-      "page": "/Contact",
-      "regex": "^/Contact(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Contact(?:/)?$"
-    },
-    {
-      "page": "/Index",
-      "regex": "^/Index(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Index(?:/)?$"
-    },
-    {
-      "page": "/NotFound",
-      "regex": "^/NotFound(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/NotFound(?:/)?$"
     },
     {
       "page": "/privacy",
@@ -90,40 +60,16 @@
       "namedRegex": "^/privacy(?:/)?$"
     },
     {
-      "page": "/Privacy",
-      "regex": "^/Privacy(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Privacy(?:/)?$"
-    },
-    {
-      "page": "/ScholarshipDetails",
-      "regex": "^/ScholarshipDetails(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/ScholarshipDetails(?:/)?$"
-    },
-    {
       "page": "/search",
       "regex": "^/search(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/search(?:/)?$"
     },
     {
-      "page": "/Search",
-      "regex": "^/Search(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Search(?:/)?$"
-    },
-    {
       "page": "/terms",
       "regex": "^/terms(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/terms(?:/)?$"
-    },
-    {
-      "page": "/Terms",
-      "regex": "^/Terms(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Terms(?:/)?$"
     }
   ],
   "dataRoutes": [],
