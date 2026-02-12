@@ -76,16 +76,6 @@
       "static/chunks/580-6493454c70bdc9ea.js",
       "static/chunks/app/scholarship/[id]/page-5055a1391496e546.js"
     ],
-    "/terms/page": [
-      "static/chunks/webpack-a584cee939cae3fe.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-68405a37192f656a.js",
-      "static/chunks/main-app-57dcd184f7b1cc5d.js",
-      "static/chunks/404-c3c87c593c7def7f.js",
-      "static/chunks/554-0504ed3553d51ef3.js",
-      "static/chunks/580-6493454c70bdc9ea.js",
-      "static/chunks/app/terms/page-0cb9adb9d22299af.js"
-    ],
     "/search/page": [
       "static/chunks/webpack-a584cee939cae3fe.js",
       "static/chunks/4bd1b696-c023c6e3521b1417.js",
@@ -99,6 +89,16 @@
       "static/chunks/580-6493454c70bdc9ea.js",
       "static/chunks/930-3ba9a40e3d71c5fa.js",
       "static/chunks/app/search/page-7f9a90335b565b96.js"
+    ],
+    "/terms/page": [
+      "static/chunks/webpack-a584cee939cae3fe.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-68405a37192f656a.js",
+      "static/chunks/main-app-57dcd184f7b1cc5d.js",
+      "static/chunks/404-c3c87c593c7def7f.js",
+      "static/chunks/554-0504ed3553d51ef3.js",
+      "static/chunks/580-6493454c70bdc9ea.js",
+      "static/chunks/app/terms/page-0cb9adb9d22299af.js"
     ]
   }
 }

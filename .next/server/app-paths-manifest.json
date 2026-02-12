@@ -5,6 +5,6 @@
   "/page": "app/page.js",
   "/privacy/page": "app/privacy/page.js",
   "/scholarship/[id]/page": "app/scholarship/[id]/page.js",
-  "/terms/page": "app/terms/page.js",
-  "/search/page": "app/search/page.js"
+  "/search/page": "app/search/page.js",
+  "/terms/page": "app/terms/page.js"
 }

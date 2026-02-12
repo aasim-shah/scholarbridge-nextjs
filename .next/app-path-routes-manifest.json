@@ -5,6 +5,6 @@
   "/page": "/",
   "/privacy/page": "/privacy",
   "/scholarship/[id]/page": "/scholarship/[id]",
-  "/terms/page": "/terms",
-  "/search/page": "/search"
+  "/search/page": "/search",
+  "/terms/page": "/terms"
 }
