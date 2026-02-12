@@ -101,7 +101,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/Users/mac/code-base/scholarships-websige/",
+    "outputFileTracingRoot": "/Users/mac",
     "experimental": {
       "useSkewCookie": false,
       "cacheLife": {
@@ -291,11 +291,11 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.js",
     "turbopack": {
-      "root": "/Users/mac/code-base/scholarships-websige/"
+      "root": "/Users/mac"
     }
   },
   "appDir": "/Users/mac/code-base/scholarships-websige/client-app",
-  "relativeAppDir": "client-app",
+  "relativeAppDir": "code-base/scholarships-websige/client-app",
   "files": [
     ".next/routes-manifest.json",
     ".next/server/pages-manifest.json",

@@ -1,10 +1,10 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/search/page": "app/search/page.js",
+  "/about/page": "app/about/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/page": "app/page.js",
+  "/privacy/page": "app/privacy/page.js",
   "/scholarship/[id]/page": "app/scholarship/[id]/page.js",
   "/terms/page": "app/terms/page.js",
-  "/page": "app/page.js",
-  "/about/page": "app/about/page.js",
-  "/privacy/page": "app/privacy/page.js",
-  "/contact/page": "app/contact/page.js"
+  "/search/page": "app/search/page.js"
 }
