@@ -3,8 +3,8 @@
   "/about/page": "app/about/page.js",
   "/contact/page": "app/contact/page.js",
   "/page": "app/page.js",
+  "/search/page": "app/search/page.js",
   "/privacy/page": "app/privacy/page.js",
   "/scholarship/[id]/page": "app/scholarship/[id]/page.js",
-  "/search/page": "app/search/page.js",
   "/terms/page": "app/terms/page.js"
 }

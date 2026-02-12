@@ -1,14 +1,14 @@
 {
   "/_app": "pages/_app.js",
-  "/About": "pages/About.html",
   "/_error": "pages/_error.js",
-  "/Admin": "pages/Admin.html",
+  "/About": "pages/About.html",
   "/Contact": "pages/Contact.html",
-  "/Index": "pages/Index.html",
+  "/Admin": "pages/Admin.html",
   "/NotFound": "pages/NotFound.html",
+  "/Index": "pages/Index.html",
   "/Privacy": "pages/Privacy.html",
-  "/ScholarshipDetails": "pages/ScholarshipDetails.html",
   "/Search": "pages/Search.html",
+  "/ScholarshipDetails": "pages/ScholarshipDetails.html",
   "/Terms": "pages/Terms.html",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"

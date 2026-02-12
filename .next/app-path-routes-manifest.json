@@ -3,8 +3,8 @@
   "/about/page": "/about",
   "/contact/page": "/contact",
   "/page": "/",
+  "/search/page": "/search",
   "/privacy/page": "/privacy",
   "/scholarship/[id]/page": "/scholarship/[id]",
-  "/search/page": "/search",
   "/terms/page": "/terms"
 }
