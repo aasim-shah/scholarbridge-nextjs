@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { Search as SearchIcon, Award } from "lucide-react";
@@ -12,7 +12,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { useScholarships } from "@/contexts/ScholarshipContext";
 
-export default function SearchPage() {
+function SearchPageContent() {
   const { scholarships } = useScholarships();
   const searchParams = useSearchParams();
   const initialQuery = searchParams.get("q") || "";
@@ -193,5 +193,13 @@ export default function SearchPage() {
         </div>
       </footer>
     </div>
+  );
+}
+
+export default function SearchPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
+      <SearchPageContent />
+    </Suspense>
   );
 }

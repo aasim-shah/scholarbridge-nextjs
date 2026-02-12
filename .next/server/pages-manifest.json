@@ -1,0 +1,15 @@
+{
+  "/_app": "pages/_app.js",
+  "/About": "pages/About.html",
+  "/_error": "pages/_error.js",
+  "/Admin": "pages/Admin.html",
+  "/Contact": "pages/Contact.html",
+  "/Index": "pages/Index.html",
+  "/NotFound": "pages/NotFound.html",
+  "/Privacy": "pages/Privacy.html",
+  "/ScholarshipDetails": "pages/ScholarshipDetails.html",
+  "/Search": "pages/Search.html",
+  "/Terms": "pages/Terms.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
