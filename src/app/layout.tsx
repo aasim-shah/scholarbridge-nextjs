@@ -11,7 +11,7 @@ const dmSans = DM_Sans({
     display: 'swap',
     preload: true, // Preload for faster initial render
     fallback: ['system-ui', 'arial'], // System font fallback
-    adjustFontFallback: true, // Reduce CLS by matching metrics
+    adjustFontFallback: true // Reduce CLS by matching metrics
 })
 
 const plusJakarta = Plus_Jakarta_Sans({
@@ -20,7 +20,7 @@ const plusJakarta = Plus_Jakarta_Sans({
     display: 'swap',
     preload: true,
     fallback: ['system-ui', 'arial'],
-    adjustFontFallback: true,
+    adjustFontFallback: true
 })
 
 // Global metadata configuration (page-specific metadata in each page)
@@ -47,11 +47,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <html lang='en' suppressHydrationWarning>
             <head>
                 {/* Performance: Preconnect to external domains */}
-                <link rel="preconnect" href="https://images.unsplash.com" />
-                <link rel="dns-prefetch" href="https://images.unsplash.com" />
-                
+                <link rel='preconnect' href='https://images.unsplash.com' />
+                <link rel='dns-prefetch' href='https://images.unsplash.com' />
+
                 {/* Performance: Preload critical resources */}
-                <link rel="preload" as="style" href="/fonts" />
+                <link rel='preload' as='style' href='/fonts' />
             </head>
             <body className={`${dmSans.variable} ${plusJakarta.variable} font-sans antialiased`}>
                 <Providers>

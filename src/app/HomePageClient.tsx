@@ -15,28 +15,34 @@ import { useEffect, useMemo, useState } from 'react'
 
 // Dynamic imports for below-the-fold components (reduces initial JS bundle)
 const CTASection = dynamic(() => import('@/components/CTASection').then(mod => ({ default: mod.CTASection })), {
-    loading: () => <div className="h-64 animate-pulse bg-muted" />,
+    loading: () => <div className='h-64 animate-pulse bg-muted' />
 })
 const FAQSection = dynamic(() => import('@/components/FAQSection').then(mod => ({ default: mod.FAQSection })), {
-    loading: () => <div className="h-96 animate-pulse bg-muted" />,
+    loading: () => <div className='h-96 animate-pulse bg-muted' />
 })
-const FeaturedScholarships = dynamic(() => import('@/components/FeaturedScholarships').then(mod => ({ default: mod.FeaturedScholarships })), {
-    loading: () => <div className="h-64 animate-pulse bg-muted" />,
-})
+const FeaturedScholarships = dynamic(
+    () => import('@/components/FeaturedScholarships').then(mod => ({ default: mod.FeaturedScholarships })),
+    {
+        loading: () => <div className='h-64 animate-pulse bg-muted' />
+    }
+)
 const HowItWorksSection = dynamic(() => import('@/components/HowItWorksSection').then(mod => ({ default: mod.HowItWorksSection })), {
-    loading: () => <div className="h-96 animate-pulse bg-muted" />,
+    loading: () => <div className='h-96 animate-pulse bg-muted' />
 })
 const NewsletterSection = dynamic(() => import('@/components/NewsletterSection').then(mod => ({ default: mod.NewsletterSection })), {
-    loading: () => <div className="h-64 animate-pulse bg-muted" />,
+    loading: () => <div className='h-64 animate-pulse bg-muted' />
 })
 const PartnersSection = dynamic(() => import('@/components/PartnersSection').then(mod => ({ default: mod.PartnersSection })), {
-    loading: () => <div className="h-48 animate-pulse bg-muted" />,
+    loading: () => <div className='h-48 animate-pulse bg-muted' />
 })
-const SuccessMetricsSection = dynamic(() => import('@/components/SuccessMetricsSection').then(mod => ({ default: mod.SuccessMetricsSection })), {
-    loading: () => <div className="h-64 animate-pulse bg-muted" />,
-})
+const SuccessMetricsSection = dynamic(
+    () => import('@/components/SuccessMetricsSection').then(mod => ({ default: mod.SuccessMetricsSection })),
+    {
+        loading: () => <div className='h-64 animate-pulse bg-muted' />
+    }
+)
 const TestimonialsSection = dynamic(() => import('@/components/TestimonialsSection').then(mod => ({ default: mod.TestimonialsSection })), {
-    loading: () => <div className="h-96 animate-pulse bg-muted" />,
+    loading: () => <div className='h-96 animate-pulse bg-muted' />
 })
 
 // Structured Data for SEO
@@ -164,23 +170,26 @@ export function HomePageClient({ initialStats }: HomePageClientProps) {
                 {/* Hero Section */}
                 <section className='relative min-h-screen overflow-hidden' role='banner' aria-label='Hero section'>
                     {/* Background Elements - Optimized for mobile */}
-                    <div className='hero-grid absolute inset-0' aria-hidden="true" />
-                    <div className='absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2' aria-hidden="true">
-                        <div className='h-[300px] w-[300px] md:h-[500px] md:w-[500px] rounded-full bg-primary/10 blur-[80px] md:blur-[100px] will-change-transform' style={{ transform: 'translateZ(0)' }} />
+                    <div className='hero-grid absolute inset-0' aria-hidden='true' />
+                    <div className='absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2' aria-hidden='true'>
+                        <div
+                            className='h-[300px] w-[300px] md:h-[500px] md:w-[500px] rounded-full bg-primary/10 blur-[80px] md:blur-[100px] will-change-transform'
+                            style={{ transform: 'translateZ(0)' }}
+                        />
                     </div>
 
                     {/* Floating Elements - Hidden on mobile for performance */}
-                    <div className='absolute left-[15%] top-[30%] hidden xl:block' aria-hidden="true">
+                    <div className='absolute left-[15%] top-[30%] hidden xl:block' aria-hidden='true'>
                         <div className='animate-float rounded-2xl border border-border/50 bg-card/50 p-4 backdrop-blur-sm will-change-transform'>
                             <GraduationCap className='h-8 w-8 text-primary' />
                         </div>
                     </div>
-                    <div className='absolute right-[15%] top-[25%] hidden xl:block' aria-hidden="true">
+                    <div className='absolute right-[15%] top-[25%] hidden xl:block' aria-hidden='true'>
                         <div className='animate-float animation-delay-200 rounded-2xl border border-border/50 bg-card/50 p-4 backdrop-blur-sm will-change-transform'>
                             <BookOpen className='h-8 w-8 text-primary' />
                         </div>
                     </div>
-                    <div className='absolute left-[20%] bottom-[25%] hidden xl:block' aria-hidden="true">
+                    <div className='absolute left-[20%] bottom-[25%] hidden xl:block' aria-hidden='true'>
                         <div className='animate-float animation-delay-400 rounded-2xl border border-border/50 bg-card/50 p-4 backdrop-blur-sm will-change-transform'>
                             <Trophy className='h-8 w-8 text-primary' />
                         </div>
