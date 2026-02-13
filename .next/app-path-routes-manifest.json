@@ -1,10 +1,11 @@
 {
   "/_not-found/page": "/_not-found",
-  "/about/page": "/about",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/privacy/page": "/privacy",
+  "/terms/page": "/terms",
   "/contact/page": "/contact",
   "/page": "/",
-  "/privacy/page": "/privacy",
-  "/scholarship/[id]/page": "/scholarship/[id]",
   "/search/page": "/search",
-  "/terms/page": "/terms"
+  "/scholarship/[id]/page": "/scholarship/[id]",
+  "/about/page": "/about"
 }

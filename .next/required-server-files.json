@@ -33,9 +33,7 @@
         828,
         1080,
         1200,
-        1920,
-        2048,
-        3840
+        1920
       ],
       "imageSizes": [
         16,
@@ -56,6 +54,7 @@
       "disableStaticImages": false,
       "minimumCacheTTL": 60,
       "formats": [
+        "image/avif",
         "image/webp"
       ],
       "maximumResponseBody": 50000000,
@@ -90,7 +89,14 @@
       "keepAlive": true
     },
     "logging": {},
-    "compiler": {},
+    "compiler": {
+      "removeConsole": {
+        "exclude": [
+          "error",
+          "warn"
+        ]
+      }
+    },
     "expireTime": 31536000,
     "staticPageGenerationTimeout": 60,
     "modularizeImports": {
@@ -101,7 +107,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/Users/mac",
+    "outputFileTracingRoot": "/Users/appworks/Desktop/wali/products/scholarbridge-nextjs",
     "experimental": {
       "useSkewCookie": false,
       "cacheLife": {
@@ -160,7 +166,7 @@
       "middlewarePrefetch": "flexible",
       "optimisticClientCache": true,
       "manualClientBasePath": false,
-      "cpus": 3,
+      "cpus": 15,
       "memoryBasedWorkersCount": false,
       "imgOptConcurrency": null,
       "imgOptTimeoutInSeconds": 7,
@@ -209,6 +215,9 @@
       "middlewareClientMaxBodySize": 10485760,
       "optimizePackageImports": [
         "lucide-react",
+        "@radix-ui/react-accordion",
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-dropdown-menu",
         "date-fns",
         "lodash-es",
         "ramda",
@@ -291,11 +300,11 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.js",
     "turbopack": {
-      "root": "/Users/mac"
+      "root": "/Users/appworks/Desktop/wali/products/scholarbridge-nextjs"
     }
   },
-  "appDir": "/Users/mac/code-base/scholarships-websige/client-app",
-  "relativeAppDir": "code-base/scholarships-websige/client-app",
+  "appDir": "/Users/appworks/Desktop/wali/products/scholarbridge-nextjs",
+  "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",
     ".next/server/pages-manifest.json",
@@ -315,7 +324,7 @@
     ".next/server/next-font-manifest.js",
     ".next/server/next-font-manifest.json",
     ".next/required-server-files.json",
-    ".next/static/css/d1e1e2ef5a1a1be7.css"
+    ".next/static/css/1b8c242431bbc993.css"
   ],
   "ignore": [
     "node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*"

@@ -66,6 +66,12 @@
       "namedRegex": "^/search(?:/)?$"
     },
     {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    },
+    {
       "page": "/terms",
       "regex": "^/terms(?:/)?$",
       "routeKeys": {},

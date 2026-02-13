@@ -1,10 +1,11 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/about/page": "app/about/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/terms/page": "app/terms/page.js",
   "/contact/page": "app/contact/page.js",
   "/page": "app/page.js",
-  "/privacy/page": "app/privacy/page.js",
-  "/scholarship/[id]/page": "app/scholarship/[id]/page.js",
   "/search/page": "app/search/page.js",
-  "/terms/page": "app/terms/page.js"
+  "/scholarship/[id]/page": "app/scholarship/[id]/page.js",
+  "/about/page": "app/about/page.js"
 }

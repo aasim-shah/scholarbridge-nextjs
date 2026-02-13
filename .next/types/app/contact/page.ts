@@ -1,4 +1,4 @@
-// File: /Users/mac/code-base/scholarships-websige/client-app/src/app/contact/page.tsx
+// File: /Users/appworks/Desktop/wali/products/scholarbridge-nextjs/src/app/contact/page.tsx
 import * as entry from '../../../../src/app/contact/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
