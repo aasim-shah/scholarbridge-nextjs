@@ -55,7 +55,6 @@ export function ScholarshipProvider({ children }: { children: ReactNode }) {
             setCurrentPage(result.pagination.page)
             setTotalPages(result.pagination.totalPages)
         } catch (err: any) {
-            onsole
             console.error('[ScholarshipContext] Fetch error:', err.message)
             setError('Unable to load scholarships. Please make sure the server is running.')
             setScholarships([])
@@ -70,7 +69,6 @@ export function ScholarshipProvider({ children }: { children: ReactNode }) {
             const options = await fetchFilterOptions()
             setFilterOptions(options)
         } catch (err) {
-            onsole
             console.warn('[ScholarshipContext] Could not load filter options')
         }
     }, [])
